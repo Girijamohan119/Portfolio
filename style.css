@@ -1,0 +1,276 @@
+.first {
+    position: relative;
+    display: flex;
+}
+
+.photo {
+    position: absolute;
+    top: 170px;
+    bottom: 0;
+    width: 300px;
+    height: 300px;
+    z-index: 2;
+    right: 100px;
+    border-radius: 50%;
+}
+
+.menu {
+    background-color: none;
+    color: white;
+    width: 50%;
+    height: 30px;
+    top: 15px;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    font-size: medium;
+    display: flex;
+    margin-left: 743px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.girija1 {
+    position: absolute;
+    color: white;
+    top: 60px;
+    left:0px;
+    padding: 5px;
+    z-index: 3;
+    font-size: x-large;
+    font-family:cursive;
+}
+
+.cv {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    width: 150px;
+    height: 40px;
+    top:5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    margin-left: 70px;
+}
+
+.cv:hover {
+    background-color: darkgreen;
+}
+
+.second {
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 400px;
+}
+
+.Aboutme {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    text-align: center;
+    padding: 30px;
+    box-shadow: 10px 0px 20px gray;
+    font-weight: 200;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} 
+.menu a{
+  position: relative;
+  color: white;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.menu a::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.1s ease;
+}
+.menu a:hover::after{
+  width: 100%;
+}
+
+.skills {
+    background-color: white;
+    color:black;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 10px 0px 20px gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Tool {
+    background-color: white;
+    color: black;
+    width: 300px;
+    height: 350px;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 10px 0px 20px gray;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Project {
+    background-color: white;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.food {
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.view {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    width: 150px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.view:hover {
+    background-color: gray;
+}
+
+
+.finance {
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.view2 {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    width: 150px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.view2:hover {
+    background-color: gray;
+}
+
+.pet {
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.view3 {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    width: 150px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.view3:hover {
+    background-color: gray;
+}
+
+.web {
+    background-color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-evenly;
+    display: flex
+    
+}
+
+
+.port {
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.view4 {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    width: 150px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.view4:hover {
+    background-color: gray;
+}
+
+.ecom {
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px gray;
+}
+
+.view5 {
+    background-color: rgb(28, 28, 28);
+    color: white;
+    width: 150px;
+    height: 40px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+.view5:hover {
+    background-color: gray;
+}
+
+.Contact {
+    background-color: white;
+    width: 400px;
+    height: 150px;
+    padding: 10px;
+}
